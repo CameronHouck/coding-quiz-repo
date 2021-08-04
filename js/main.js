@@ -72,3 +72,6 @@ var questions = [
     answer: 1,
   },
 ];
+
+const SCORE_POINTS = 10;
+const MAX_QUESTIONS = 7;
