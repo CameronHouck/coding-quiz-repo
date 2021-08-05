@@ -127,3 +127,10 @@ choices.forEach((choice) => {
     }, 1000);
   });
 });
+
+incrementScore = (num) => {
+  score += num;
+  scoreText.innerText = score;
+};
+
+startGame();
